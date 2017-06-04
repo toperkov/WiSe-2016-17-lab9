@@ -10,6 +10,6 @@ Vaš Arduino, odnosno senzore temperature/blage i osvjetljenja povežite prema u
 ```
 node server.js COMX
 ```
-gdje X označava COM port na koji se spojen Arduino.
+gdje X označava COM port na koji se spojen Arduino. NOTE: Može vam se dogoditi da pri pokretanju nedostaje neki *package*, njega će te instalirati naredbom ```npm install ime_package-a```
 
 Nakon toga testirajte svoju aplikaciju tako da u web preglednik upišete ```localhost:3000```
