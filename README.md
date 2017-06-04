@@ -11,3 +11,4 @@ U sklopu današnje vježbe student će vizualizirati senzorske podatke sa Arduin
   node server.js COMX
   ```
   gdje X označava COM port na koji se spojen Arduino.
+2. test
