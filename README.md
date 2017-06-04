@@ -4,11 +4,12 @@
 
 U sklopu današnje vježbe student će vizualizirati senzorske podatke sa Arduina. U vježbi ćemo koristiti server aplikaciju pisanu u *Node.js*-u.
 
-## Uputstva za instalaciju i pokretanje Server aplikacije
+## Uputstva za pokretanje Server aplikacije
 
-1. Pokrenite serversku aplikaciju ```server.js``` tako da u komandnom prozoru izvršite sljedeću naredbu:
-  ```
-  node server.js COMX
-  ```
-  gdje X označava COM port na koji se spojen Arduino.  
-2. test
+Vaš Arduino, odnosno senzore temperature/blage i osvjetljenja povežite prema uputama koje su dane u Vježbi 3. Kod za Arduino je dan u direktoriju vježba. Pokrenite serversku aplikaciju ```server.js``` tako da u komandnom prozoru izvršite sljedeću naredbu:
+```
+node server.js COMX
+```
+gdje X označava COM port na koji se spojen Arduino.  
+
+Nakon toga testirajte svoju aplikaciju tako da u web preglednik upišete ```localhost:3000```
