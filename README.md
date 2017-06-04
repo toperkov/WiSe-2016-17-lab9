@@ -7,7 +7,7 @@ U sklopu današnje vježbe student će vizualizirati senzorske podatke sa Arduin
 ## Uputstva za instalaciju i pokretanje Server aplikacije
 
 1. Pokrenite serversku aplikaciju ```server.js``` tako da u komandnom prozoru izvršite sljedeću naredbu:
-```
-node server.js COMX
-```
-gdje X označava COM port na koji se spojen Arduino.
+  ```
+  node server.js COMX
+  ```
+  gdje X označava COM port na koji se spojen Arduino.
